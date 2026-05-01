@@ -1,0 +1,14 @@
+torch
+transformers
+datasets
+accelerate
+deepspeed
+trl
+peft
+sentence-transformers
+openai
+numpy
+scikit-learn
+tqdm
+networkx
+walker

@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments and secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+
+# Large local artifacts
+datasets/*
+!datasets/.gitkeep
+models/*
+!models/.gitkeep
+outputs/*
+!outputs/.gitkeep
+save_models/
+results/
+output/
+logs/
+wandb/
+
+# Checkpoints
+checkpoint-*/
+*.safetensors
+*.bin
+*.pt
+*.pth
