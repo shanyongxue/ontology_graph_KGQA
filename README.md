@@ -6,7 +6,7 @@ This repository provides the implementation of **ORBIT**, an ontology-guided fra
 
 ORBIT consists of three main components:
 
-1. **Tail-type prediction**: fine-tunes a language model to predict answer-side Freebase-style entity types for each question.
+1. **Ontology Graph Construction**: introduces a relation-centric ontology graph to capture the head and tail entity types for each relation
 2. **Ontology-guided bidirectional retrieval**: uses predicted answer types and ontology relation signatures to retrieve compact reasoning evidence from the knowledge graph.
 3. **Iterative answer refinement**: uses a generator-refiner loop to produce and revise final answers based on retrieved reasoning paths, candidate answers, and type constraints.
 
